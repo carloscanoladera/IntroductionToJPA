@@ -43,6 +43,7 @@ public class MisLugaresServicioImpl implements MisLugaresServicio {
 		EntityTransaction transaction = entityManager.getTransaction();
 		transaction.begin();
 		Query query = entityManager.createQuery("DELETE FROM Lugar l WHERE l.id = :id");
+		
 		query.setParameter("id", id);
 		int rowsDeleted = query.executeUpdate();
 		transaction.commit();
