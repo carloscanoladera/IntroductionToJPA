@@ -1,10 +1,6 @@
 package mislugares.jpa.modelo;
 
 import java.io.Serializable;
-import java.util.Objects;
-
-
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;

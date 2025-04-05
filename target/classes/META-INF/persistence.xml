@@ -10,12 +10,13 @@
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
 		<class> mislugares.jpa.modelo.Lugar</class>
+		<class> mislugares.jpa.modelo.GeoPunto</class>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 
 		<properties>
 
-			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3307/mislugares" />
+				<property name="javax.persistence.jdbc.url"
+				value="jdbc:mysql://localhost:4300/mislugares" />
 			<property name="javax.persistence.jdbc.user" value="lugares" />
 			<property name="javax.persistence.jdbc.password"
 				value="lugares" />
@@ -23,9 +24,13 @@
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 
+			<property name="javax.persistence.jdbc.driver"
+				value="com.mysql.jdbc.Driver" />
+
 			<property
 				name="javax.persistence.schema-generation.database.action"
 				value="none" />
+				<property name="eclipselink.logging.level" value="ALL"/>
 
 		</properties>
 	</persistence-unit>

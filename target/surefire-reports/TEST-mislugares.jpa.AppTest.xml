@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="mislugares.jpa.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="mislugares.jpa.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa\target\test-classes;C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa\target\classes;C:\Users\carlo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\carlo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\carlo\.m2\repository\mysql\mysql-connector-java\5.1.48\mysql-connector-java-5.1.48.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\eclipselink\2.6.4\eclipselink-2.6.4.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\javax.persistence\2.1.1\javax.persistence-2.1.1.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\carlo\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\carlo\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa\target\test-classes;D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa\target\classes;C:\Users\carlo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\carlo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\carlo\.m2\repository\mysql\mysql-connector-java\5.1.48\mysql-connector-java-5.1.48.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\eclipselink\2.6.4\eclipselink-2.6.4.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\javax.persistence\2.1.1\javax.persistence-2.1.1.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\carlo\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\carlo\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="Europe/Paris"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="ES"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\carlo\AppData\Local\Temp\surefire5338930749426654030\surefirebooter1034694152477111034.jar C:\Users\carlo\AppData\Local\Temp\surefire5338930749426654030 2022-05-28T11-01-55_544-jvmRun1 surefire4736015334886981412tmp surefire_06913787450350869142tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa\target\test-classes;C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa\target\classes;C:\Users\carlo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\carlo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\carlo\.m2\repository\mysql\mysql-connector-java\5.1.48\mysql-connector-java-5.1.48.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\eclipselink\2.6.4\eclipselink-2.6.4.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\javax.persistence\2.1.1\javax.persistence-2.1.1.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\carlo\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\carlo\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="D:\dev\eclipse\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\carlo\AppData\Local\Temp\surefire5174727266319676593\surefirebooter8026667507971881234.jar C:\Users\carlo\AppData\Local\Temp\surefire5174727266319676593 2025-04-02T19-17-31_112-jvmRun1 surefire2328222869967808249tmp surefire_015254562015230053161tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa\target\test-classes;D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa\target\classes;C:\Users\carlo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\carlo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\carlo\.m2\repository\mysql\mysql-connector-java\5.1.48\mysql-connector-java-5.1.48.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\eclipselink\2.6.4\eclipselink-2.6.4.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\javax.persistence\2.1.1\javax.persistence-2.1.1.jar;C:\Users\carlo\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\carlo\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\carlo\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\carlo"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre"/>
-    <property name="basedir" value="C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="D:\dev\eclipse\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\carlo\AppData\Local\Temp\surefire5338930749426654030\surefirebooter1034694152477111034.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\carlo\AppData\Local\Temp\surefire5174727266319676593\surefirebooter8026667507971881234.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
     <property name="user.name" value="carlo"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
     <property name="localRepository" value="C:\Users\carlo\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\carlo\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_251"/>
-    <property name="user.dir" value="C:\Users\carlo\OneDrive\Brianda20202021\ProgramacionDeMoviles\APIREST\jpa"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="D:\OneDrive\proyectoeclipseAPIRest\APIREST\jpa"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/dev/eclipse-jee-2022-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/dev/eclipse-jee-2022-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_251\bin;C:\dev\apache-maven-3.6.3\bin;C:\dev\apache-ant-1.10.9\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlo\AppData\Local\Microsoft\WindowsApps;C:\Users\carlo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\carlo\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\xampp\mysql\bin;C:\Program Files (x86)\Java\jdk1.8.0_251\bin;C:\MinGW\bin;C:\Users\carlo\.dotnet\tools;C:\Program Files (x86)\Java\jdk1.8.0_251\bin;;C:\dev\eclipse-jee-2022-03-R-win32-x86_64\eclipse;;."/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\dev\eclipse\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/dev/eclipse/eclipse-jee-2023-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;D:/dev/eclipse/eclipse-jee-2023-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Java\jdk-21.0.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\windows\system32;C:\windows;C:\Program Files (x86)\Commom Files\Oracle\Java\javapath;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\minikube;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\carlo\AppData\Local\Android\Sdk\platform-tools;C:\Users\carlo\AppData\Local\Android\Sdk\emulator;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\swipl\bin;D:\dev\apache-ant-1.10.9\bin;D:\dev\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files (x86)\Java\kotlinc\bin;C:\Program Files\gs\gs10.04.0\bin;C:\Program Files\nodejs\;C:\Users\carlo\AppData\Local\Microsoft\WindowsApps;C:\Users\carlo\.dotnet\tools;C:\Users\carlo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\carlo\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Brackets\;C:\Users\carlo\AppData\Roaming\npm;D:\dev\eclipse\eclipse-jee-2023-06-R-win32-x86_64\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.251-b08"/>
-    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="mislugares.jpa.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="mislugares.jpa.AppTest" time="0.002"/>
 </testsuite>
